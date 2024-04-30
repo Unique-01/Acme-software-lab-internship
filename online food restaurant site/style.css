@@ -1,0 +1,432 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto";
+  background-color: black;
+  /* color: white; */
+}
+
+main {
+  padding: 7% 0 0;
+}
+
+header {
+  background-color: rgb(17, 17, 17);
+}
+
+.top-header {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: red;
+  padding: 6px 0px 12px;
+  position: relative;
+}
+
+.white-color {
+  color: white;
+}
+
+.top-header > span {
+  font-size: 12px;
+}
+
+span > a {
+  color: black;
+}
+
+.contact {
+  display: inline-flex;
+  gap: 15px;
+}
+
+li {
+  list-style: none;
+}
+
+li > a {
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 17px 12%;
+  position: fixed;
+  width: 76%;
+  background-color: black;
+}
+
+.move-up {
+  top: -5px;
+  /* padding-top: 5px; */
+}
+
+.nav-items,
+.nav-items2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  font-size: 12.5px;
+}
+
+.nav-items > li > a,
+.nav-items > span > li > a {
+  color: white;
+}
+
+.btn-login {
+  border: 1px solid red;
+  border-radius: 5px;
+  padding: 10px 23px;
+  color: white;
+  background-color: red;
+}
+
+.btn-signup {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px 23px;
+  color: white;
+}
+
+.btn-white:hover {
+  background-color: red;
+  border: 1px solid red;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+.brand {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.brand > i {
+  font-size: 25px;
+  color: red;
+}
+
+.red-border {
+  border: 1px solid red;
+  border-radius: 5px;
+}
+
+.round-border {
+  padding: 8px 9px 5px 9px;
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+.search-form {
+  padding: 0 10px;
+  width: 120px;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.search-form > input {
+  background: none;
+  border: none;
+  height: 35px;
+  width: 100px;
+  color: white;
+}
+
+.search-form > i {
+  font-size: 20px;
+  color: gray;
+}
+
+.search-form > input:focus,
+.newsletter-form > input:focus {
+  outline: none;
+}
+
+.craft-section {
+  background: url("assets/background.png");
+  background-size: cover;
+}
+
+.craft-section-content {
+  padding: 8% 12%;
+  width: 40%;
+  color: white;
+}
+
+.craft-text {
+  font-size: 50px;
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+
+.craft-text > span {
+  background: linear-gradient(
+    to right,
+    rgb(238, 18, 18),
+    rgb(241, 33, 33),
+    rgb(241, 66, 66),
+    #ff7920
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.craft-p {
+  font-size: small;
+  margin-bottom: 40px;
+}
+
+.sec-btn {
+  background-color: white;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 8px;
+  width: 85%;
+}
+
+.sec-btn-a {
+  color: red;
+}
+
+.sec-btn > a {
+  border: 1px solid red;
+  border-radius: 6px;
+  padding: 15px 20px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.delivery-btn {
+  background-color: red;
+  color: white;
+}
+
+.sec-btn > a:hover {
+  background-color: red;
+  color: white;
+}
+
+.category-section {
+  background-color: white;
+  padding: 5% 12%;
+}
+
+.category-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.category-header > h1 {
+  font-size: 35px;
+}
+
+.category-header > a {
+  text-decoration: none;
+  border: 1px solid red;
+  padding: 10px 23px;
+  border-radius: 7px;
+  color: black;
+  font-size: 12.5px;
+  font-weight: 500;
+}
+
+.cuisine-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+
+.cuisine {
+  background-color: rgb(238, 238, 238);
+  padding: 10px 20px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.cuisine > span > p {
+  font-size: 12.5px;
+  color: rgb(116, 115, 115);
+}
+
+.cuisine-img {
+  width: 40px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.special {
+  margin: 90px 0 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.special > img {
+  border-radius: 20px;
+}
+
+.experience-section {
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+  background-color: rgb(216, 14, 14);
+}
+
+.experience-section-first {
+  padding: 12% 20% 10% 23%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.experience-section-first > h1 {
+  font-size: 45px;
+}
+
+.experience-section-first > p {
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.app-btn {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+.google-btn {
+  background-color: white;
+  color: black;
+  padding: 10px 25px;
+  border-radius: 50px;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  gap: 5px;
+  text-decoration: none;
+}
+
+.apple-btn {
+  background-color: black;
+  padding: 10px 30px;
+  border-radius: 50px;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  gap: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+.apple-btn > img {
+  border-radius: 50%;
+}
+
+.experience-section-second > img {
+  width: 100%;
+  height: 100%;
+}
+
+.btn-icon {
+  width: 30px;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 48px;
+  /* display: flex;
+    justify-content: space-evenly; */
+  color: white;
+  padding: 5% 12% 4%;
+  background-color: rgb(26, 25, 25);
+}
+
+.footer-head {
+  font-size: 18px;
+}
+
+.quick-link > ul,
+.about-footer > p,
+.terms > ul,
+.newsletter > div {
+  font-size: 14px;
+  padding-top: 25px;
+}
+
+.quick-link > ul,
+.terms > ul {
+  line-height: 30px;
+}
+
+ul > li > a {
+  color: white;
+}
+
+.newsletter-form {
+  display: flex;
+  gap: 10px;
+}
+
+.newsletter-form > button {
+  padding: 0 20px;
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+}
+
+.newsletter-form > input {
+  border: 1px solid red;
+  background: none;
+  padding: 0 20px;
+  border-radius: 5px;
+  /* border: none; */
+  height: 35px;
+  /* width: 100px; */
+  color: white;
+}
+
+.payment {
+  margin-top: 20px;
+}
+
+.copyright {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: small;
+  margin: 5px 0 10px;
+}
+
+.payment-img-div {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  padding: 20px 0;
+}
+
+.payment-img {
+  background-color: white;
+  padding: 0 10px;
+  border-radius: 5px;
+  width: 40px;
+}
