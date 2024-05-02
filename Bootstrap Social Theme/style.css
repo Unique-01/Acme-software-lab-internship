@@ -1,0 +1,17 @@
+.navbar{
+    opacity: 0.6;
+    border-bottom: 3px solid rgb(109, 109, 219);
+}
+.home-header{
+    background: url(./img/home.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.overlay{
+    padding-top: 150px;
+    background-color: rgb(0, 0, 0,0.7);
+    height: 100vh;
+}
+.explore-section,.bg-dark{
+    opacity: 0.9;
+}
