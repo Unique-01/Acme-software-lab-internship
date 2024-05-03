@@ -1,0 +1,60 @@
+:root{
+    --primary:rgb(50, 146, 166);
+}
+.navbar{
+    background-color: white !important;
+    box-shadow: 2px 2px 5px var(--primary) ;
+}
+.landing{
+    background: url(img/mountains.jpg);
+    
+}
+.blue-overlay{
+    background-color:rgb(50, 146, 166,0.8);
+    /* height: 100vh; */
+    max-height: 600px; 
+}
+.display-1{
+    font-size: 90px !important;
+}
+.fs-cust{
+    font-size: 20px !important;
+}
+.landing-right{
+    padding-top: 100px;
+}
+.btn-primary{
+    background-color: var(--primary) !important;
+    border: 1px solid var(--primary) !important;
+}
+.bg-primary-cust{
+    background-color: var(--primary) !important
+}
+.bg-dark{
+    opacity: 0.9 !important;
+}
+.text-primary-cust{
+    color: var(--primary) !important;
+}
+.border-primary-cust{
+    border: 1px solid var(--primary) !important;
+}
+@media only screen and (max-width: 700px)  {
+    .text-resp{
+        font-size: 4em !important;
+    }
+}
+.card-img-top{
+    margin-top: -40px;
+    max-width: 40%;
+}
+.card:hover{
+    background-color: var(--primary) !important;
+    color: white;
+}
+.navbar{
+    background: rgb(255, 255, 255,0.9) !important;
+}
+/* .about-section{
+    background-color: whitesmoke;
+} */
