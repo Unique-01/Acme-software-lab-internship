@@ -1,0 +1,11 @@
+.img-f{
+    height: 100% !important;
+    width: 100% !important;
+}
+.head-btn{
+    color: white !important;
+
+}
+.light-placeholder::placeholder{
+    color: rgb(94, 90, 90) !important;
+}
